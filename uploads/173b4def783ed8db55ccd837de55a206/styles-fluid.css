@@ -1,0 +1,42 @@
+body {
+	background-image: url("https://cdn.cmich.edu/media/img/sp2013/cmich/2015Redesign/cmichBG.png");
+	color: white;
+}
+header,
+.container,
+footer {
+	width: 100%;
+	max-width: 960px;
+	margin: 10px auto;
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	border: 2px solid #333;
+	border-radius: 10px;
+}
+.container-inner {
+	width: 100%;
+	padding: 10px 0;
+}
+.leftPanel {
+	width: calc(65% - 20px);
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.9);
+	height: 100%;
+	vertical-align: top;
+}
+.rightPanel {
+    width: calc(32% - 20px);
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #333;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.9);
+}
+footer {
+	clear: both;
+	padding: 10px 0;
+}
+	
